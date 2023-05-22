@@ -23,6 +23,7 @@ time, mark, audio, video {
     font: inherit;
     font-weight: normal;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -115,4 +116,10 @@ html {
 /*隐藏*/
 .dn {
     display: none;
+}
+
+input {
+    background: none;
+    border: none;
+    outline: none;
 }
